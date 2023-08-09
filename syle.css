@@ -1,0 +1,50 @@
+html{
+scroll-behavior: smooth;
+
+}
+
+
+.navbar-brand img{
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+nav{
+  background-color: #a47e1b;
+}
+
+.anav{
+font-size:2rem;
+color: white;
+
+}
+
+.linav{
+  background-color: rgba(0,0,0,0.5);
+}
+
+header{
+background-image: url("images/pexels-rdne-stock-project-7563681.jpg");
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.banner-container{
+
+height: 100vh;
+}
+
+.h1font{
+  font-size: 4rem;
+ color: #a47e1b;
+}
+
+.btncolor{
+  background-color: white;
+  color: #a47e1b;
+ 
+}
