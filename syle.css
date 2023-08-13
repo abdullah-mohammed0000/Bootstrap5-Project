@@ -1,9 +1,6 @@
-html{
-  scroll-behavior: smooth;
-  border: 0;
-  margin: 0;
-  width: 100%;
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
@@ -28,12 +25,13 @@ color: white;
 }
 
 header{
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 
-background-image: url("images/pexels-rdne-stock-project-7563681.jpg");
-background-position: center;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
 
 }
 
@@ -60,11 +58,18 @@ height: 100vh;
 }
 
 main{
- background-color: black;
+ 
 }
 
 #featuresmain{
-  height:100%;
+ 
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
 }
 
 .borderstyle{
@@ -72,4 +77,29 @@ main{
   border-left: 1px solid #a47e1b;
   border-right: 1px solid #a47e1b;
  
+}
+
+.hr-style{
+  border: 5px dotted #a47e1b;
+  border-bottom: none;
+  width: 200px;
+  margin: auto;
+}
+
+.abouticon{
+  color: #a47e1b;
+}
+
+.personalinfobody p{
+  font-weight: bold;
+}
+
+#about-me{
+  color: white;
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
