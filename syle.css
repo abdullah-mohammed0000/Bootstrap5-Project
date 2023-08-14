@@ -1,6 +1,12 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
@@ -83,7 +89,9 @@ main{
   border: 5px dotted #a47e1b;
   border-bottom: none;
   width: 200px;
-  margin: auto;
+margin: auto;
+margin-bottom: 1rem;
+
 }
 
 .abouticon{
@@ -103,3 +111,13 @@ main{
   background-size: cover;
   
 }
+
+#services{
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
