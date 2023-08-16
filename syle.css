@@ -136,6 +136,15 @@ font-style: italic;
   margin-right: 1rem;
 }
 
+.hr-style-aboutme{
+  border: 5px dotted #a47e1b;
+  border-bottom: none;
+  width: 200px;
+margin: auto;
+margin-bottom: 1rem;
+
+}
+
 
 @media only screen and (max-width: 600px) {
   .carousel-indicators {
