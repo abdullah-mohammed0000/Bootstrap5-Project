@@ -144,7 +144,13 @@ margin: auto;
 margin-bottom: 1rem;
 
 }
+.box-shadow{
+  transition: 4s;
+}
 
+.box-shadow:hover{
+  transform: scale(0.8);
+}
 
 @media only screen and (max-width: 600px) {
   .carousel-indicators {
